@@ -7,8 +7,8 @@ func sumArray(var A as array of length n)
     return sum
 end func
 
-Running time: 
-Explanation: 
+Running time: O(n)
+Explanation: a single for loop
 
 ----------------------------------------------------------------
 
@@ -21,8 +21,8 @@ func sumMatrix(var A as n x n matrix) // A matrix can be represented as an array
     return sum
 end func
 
-Running time: 
-Explanation: 
+Running time: O(n^2)
+Explanation: one nested for loop
 
 ----------------------------------------------------------------
 
@@ -37,8 +37,8 @@ func countDivisionsByTwo(var n as int)
     return count
 end func
 
-Running time: 
-Explanation: 
+Running time: O(log(n))
+Explanation: it’s one loop but the iterator value is in log base 2 ^ n
 
 ----------------------------------------------------------------
 
@@ -52,8 +52,8 @@ func arrayMax(var A as array of length n)
     return currentMax
 end func
 
-Running time: 
-Explanation: 
+Running time: O(n)
+Explanation: one for loop
 
 ----------------------------------------------------------------
 
